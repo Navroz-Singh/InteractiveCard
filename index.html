@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive card details form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+
+        <div class="backcard" id="backcard">
+            <img src="images/bg-card-back.png" alt="back" srcset="">
+        </div>
+
+
+        <div class="frontcard" id="frontcard">
+            <img src="images/bg-card-front.png" alt="front" srcset="">
+        </div>
+
+    </header>
+
+
+    <header class="headerr">
+
+        <div class="backcardd" id="backcardd">
+            000
+        </div>
+
+
+        <div class="frontcardd" id="frontcardd">
+            <div class="frontup">
+                <div class="full">&nbsp;</div>
+                <div class="empty">&nbsp;</div>
+            </div>
+            <div class="frontcenter" id="frontcenter">
+                0000 0000 0000 0000
+            </div>
+            <div class="frontdown">
+                <div class="frontname" id="frontname">JANE APPLESEED</div>
+                <div class="frontdate" id="frontdate">
+                    <span>00</span>
+                    <span>/</span>
+                    <span>00</span>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <div class="name">
+            <div class="namehead">CARDHOLDER NAME</div>
+            <input type="text" id="nameinp" placeholder="e.g. Jane Appleseed">
+        </div>
+
+
+        <div class="number">
+            <div class="numberhead">CARDHOLDER NUMBER</div>
+            <input type="number" name="" id="numberinp" placeholder="e.g. 1234 5678 9123 0000">
+            <span class="format" id="format">Wrong format, numbers only</span>
+        </div>
+
+
+        <div class="date">
+            <div class="mm">
+                <div class="mmhead">EXP. DATE</div>
+                <input type="number" name="" id="mminp" placeholder="MM">
+                <span class="blank1" id="blank1">Can't be blank</span>
+            </div>
+            <div class="yy">
+                <div class="yyhead">(MM/YY)</div>
+                <input type="number" id="yyinp" placeholder="YY">
+                <span id="blank2" class="blank2">&nbsp;</span>
+            </div>
+            <div class="cvc">
+                <div class="cvchead">CVC</div>
+                <input type="number" name="" id="cvcinp" placeholder="e.g. 123">
+                <span class="blank3" id="blank3">Can't be blank</span>
+            </div>
+
+        </div>
+
+
+        <div class="confirm">
+            <button>Confirm</button>
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+
+    <footer>
+
+        <div class="tick">
+            <img src="images/icon-complete.svg" alt="" srcset="">
+        </div>
+
+        <div class="thanks">
+            THANK YOU!
+        </div>
+
+        <div class="added">
+            We've added your card details
+        </div>
+
+
+        <div class="confirm">
+            <button>Continue</button>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
