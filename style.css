@@ -294,14 +294,14 @@ footer.hidden{
         flex-direction: column;
         justify-content: center;
         gap:30px;
-        top:25vh;
+        top:24vh;
         left:100px;
         width:300px;
     }
     
     .backcardd{
         position: fixed;
-        top:64vh;
+        top:64.5vh;
         left:30vw;
         color:rgb(135, 132, 132);
         font-size: 20px;
